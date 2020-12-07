@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+   <Button
+       android:id="@+id/image_options_addImage"
+       android:layout_width="match_parent"
+       android:textAllCaps="false"
+       android:textColor="#025860"
+       android:layout_margin="20dp"
+       android:background="@drawable/image"
+       android:layout_height="wrap_content"
+       android:text="Upload New Image"/>
+    <Button
+        android:layout_below="@+id/image_options_addImage"
+        android:id="@+id/image_options_removeImage"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:textColor="#025860"
+        android:layout_margin="20dp"
+        android:background="@drawable/image"
+        android:layout_height="wrap_content"
+        android:text="Remove Image"/>
+    <Button
+        android:layout_below="@id/image_options_removeImage"
+        android:id="@+id/image_options_showImage"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:textColor="#025860"
+        android:layout_margin="20dp"
+        android:background="@drawable/image"
+        android:layout_height="wrap_content"
+        android:text="View Image"/>
+
+</RelativeLayout>
